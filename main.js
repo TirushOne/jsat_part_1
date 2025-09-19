@@ -1,4 +1,4 @@
-function binarySearch(array, target) {
+export function binarySearch(array, target) {
     let l = 0;
     let r = array.length;
 
@@ -17,7 +17,7 @@ function binarySearch(array, target) {
     return -1;
 }
 
-function sequencialSearch(array, value) {
+export function sequencialSearch(array, value) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] == value) {
             return i;
