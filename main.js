@@ -50,7 +50,9 @@ function removeValue(array, value) {
 let array = [11, 5, 8, 3, 25, 16, 31, 45, 14, 20];
 console.log(array);
 
+//finding an element using sequencial search
 console.log(sequencialSearch(array, 25));
+//not finding an element using sequencial search
 console.log(sequencialSearch(array, 100));
 
 // sort the array, as per point 2
