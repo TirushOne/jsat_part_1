@@ -1,4 +1,5 @@
 // this comment came from branch 1
+//this comment came from branch 3
 
 // find the index of an element in a sorted array in O(log2(n)) time.
 // returns the index of the element if it is found, otherwise return -1, as per point 6.
