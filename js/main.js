@@ -63,6 +63,11 @@ console.log(sequencialSearch(array, 25));
 //not finding an element using sequencial search
 console.log(sequencialSearch(array, 100));
 
+//finding an element using bineary search
+console.log(binarySearch(array, 25));
+//not finding an element using bineary search
+console.log(binarySearch(array, 100));
+
 // add 3 new elements to the array and sort it in accending order, as per point 3
 array.push(19);
 array.push(23);
